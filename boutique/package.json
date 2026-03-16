@@ -1,0 +1,18 @@
+﻿{
+    "name":  "blok-boutique",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "start":  "node ./server.mjs",
+                    "start:server":  "node ./server.mjs",
+                    "check":  "node --check ./marketplace.js \u0026\u0026 node --check ./marketplace-api.js \u0026\u0026 node --check ./marketplace-wallets.js \u0026\u0026 node --check ./boutique-psbt.js \u0026\u0026 node --check ./boutique-security.js \u0026\u0026 node --check ./boutique-api.mjs \u0026\u0026 node --check ./catalog-builder.mjs \u0026\u0026 node --check ./collection-registry.js \u0026\u0026 node --check ./server.mjs"
+                },
+    "dependencies":  {
+                         "@noble/curves":  "^1.8.1",
+                         "@unisat/wallet-utils":  "^1.0.0",
+                         "bip322-js":  "^1.1.1",
+                         "bitcoinjs-lib":  "^6.1.7",
+                         "bitcore-lib":  "^10.10.7",
+                         "tiny-secp256k1":  "^2.2.4"
+                     }
+}

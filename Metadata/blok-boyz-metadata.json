@@ -1,0 +1,82 @@
+﻿[
+    {
+        "id":  "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb01i0",
+        "meta":  {
+                     "name":  "Example Block #1",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "1",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb02i0",
+        "meta":  {
+                     "name":  "Example Block #2",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "2",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb03i0",
+        "meta":  {
+                     "name":  "Example Block #3",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "3",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb04i0",
+        "meta":  {
+                     "name":  "Example Block #4",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "4",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb05i0",
+        "meta":  {
+                     "name":  "Example Block #5",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "5",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    }
+]

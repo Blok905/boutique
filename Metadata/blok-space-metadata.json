@@ -1,0 +1,82 @@
+﻿[
+    {
+        "id":  "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc01i0",
+        "meta":  {
+                     "name":  "Example Studio #1",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "1",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc02i0",
+        "meta":  {
+                     "name":  "Example Studio #2",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "2",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc03i0",
+        "meta":  {
+                     "name":  "Example Studio #3",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "3",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc04i0",
+        "meta":  {
+                     "name":  "Example Studio #4",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "4",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc05i0",
+        "meta":  {
+                     "name":  "Example Studio #5",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "5",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    }
+]

@@ -1,0 +1,6 @@
+boutique/.env
+boutique/.data/
+boutique/node_modules/
+.tmp-*/
+*.code-workspace
+.DS_Store

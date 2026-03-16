@@ -1,0 +1,9 @@
+.env
+node_modules/
+.data/*.json
+.data/*.log
+.data/*.html
+.data/*.pid
+.data/automation-logs/
+!.data/.gitkeep
+.wrangler/

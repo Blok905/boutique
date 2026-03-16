@@ -1,0 +1,82 @@
+﻿[
+    {
+        "id":  "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee01i0",
+        "meta":  {
+                     "name":  "Roadmap",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "1",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee02i0",
+        "meta":  {
+                     "name":  "Blok 9 Miner",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "1",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee03i0",
+        "meta":  {
+                     "name":  "Fiat Fuel",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "1",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee04i0",
+        "meta":  {
+                     "name":  "Moon Boi",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "1",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    },
+    {
+        "id":  "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee05i0",
+        "meta":  {
+                     "name":  "Deserted",
+                     "attributes":  [
+                                        {
+                                            "value":  "Example",
+                                            "trait_type":  "Series"
+                                        },
+                                        {
+                                            "value":  "1",
+                                            "trait_type":  "Index"
+                                        }
+                                    ]
+                 }
+    }
+]

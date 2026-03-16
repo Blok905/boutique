@@ -1,0 +1,126 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blok Boutique</title>
+    <meta name="description" content="Self-hosted non-custodial Ordinals marketplace.">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/svg+xml" href="/Images/Surveillance.svg">
+</head>
+<body class="boutique-page">
+    <div class="grid-background" aria-hidden="true"></div>
+    <section class="boutique-intro boutique-intro--fixed" aria-label="Boutique introduction">
+        <div class="boutique-intro__title-row">
+            <h1 class="boutique-intro__title">Blok Boutique</h1>
+        </div>
+        <div class="boutique-intro__description" aria-hidden="true">
+            <div class="boutique-intro__description-line boutique-intro__description-line--primary">&#9673;OPEN SOURCE | NON-CUSTODIAL | 0% FEES</div>
+            <div class="boutique-intro__description-line boutique-intro__description-line--secondary">TRADE MORE, TRUST LESS</div>
+        </div>
+    </section>
+    <div id="wallet-shell" class="wallet-shell wallet-shell--top-right" data-wallet-shell>
+        <button id="wallet-button" class="market-wallet-button" type="button" aria-haspopup="menu" aria-controls="wallet-menu" aria-expanded="false" data-connected="false" data-open="false">
+            <span id="wallet-state" class="market-wallet-button-primary is-connect-label"><span>Connect</span><span>Wallet</span></span>
+        </button>
+        <div id="wallet-menu" class="market-wallet-dropdown" hidden>
+            <div id="wallet-providers" class="market-wallet-provider-menu"></div>
+            <div id="wallet-account-menu" class="market-wallet-account-menu" hidden>
+                <div id="wallet-dropdown-ordinals-row" class="market-wallet-dropdown-row">
+                    <div class="market-wallet-dropdown-label-row">
+                        <button id="wallet-copy-button" class="market-wallet-copy" type="button">Copy</button>
+                        <span class="market-wallet-dropdown-label">Taproot Address</span>
+                    </div>
+                    <div class="market-wallet-dropdown-value-row">
+                        <span id="wallet-dropdown-ordinals-address" class="market-wallet-dropdown-value"></span>
+                    </div>
+                </div>
+                <div id="wallet-dropdown-payment-row" class="market-wallet-dropdown-row">
+                    <span class="market-wallet-dropdown-label">Segwit Address</span>
+                    <div class="market-wallet-dropdown-value-row">
+                        <span id="wallet-dropdown-payment-address" class="market-wallet-dropdown-value"></span>
+                    </div>
+                </div>
+                <div class="market-wallet-dropdown-row">
+                    <span class="market-wallet-dropdown-label">Wallet</span>
+                    <span id="wallet-dropdown-provider" class="market-wallet-dropdown-value"></span>
+                </div>
+                <div class="market-wallet-dropdown-row">
+                    <span class="market-wallet-dropdown-label">Tracked Holdings</span>
+                    <span id="wallet-dropdown-collection-count" class="market-wallet-dropdown-value"></span>
+                </div>
+                <button id="wallet-profile-button" class="market-wallet-profile" type="button">My profile</button>
+                <button id="wallet-disconnect-button" class="market-wallet-disconnect" type="button">Disconnect</button>
+            </div>
+        </div>
+    </div>
+    <div class="boutique-shell">
+        <main class="layout">
+            <aside class="layout-stack layout-stack--left">
+                <section id="collection-rail" class="collection-rail boutique-collapsible-panel" data-collapsed="false">
+                    <div class="boutique-collapsible-panel__topbar">
+                        <div class="panel-header panel-header--compact boutique-collapsible-panel__header"><strong>Collections</strong></div>
+                        <button id="collection-rail-toggle" class="sales-history-chart__collapse-button boutique-collapse-button" type="button" aria-controls="collection-rail-body" aria-expanded="true">Collapse</button>
+                    </div>
+                    <div id="collection-rail-body" class="collection-rail__body">
+                        <div id="collection-list" class="collection-list"></div>
+                    </div>
+                </section>
+                <section class="summary-card collection-tools-rail">
+                    <section id="trait-filter-window" class="trait-filter-window boutique-trait-filter-window boutique-collapsible-panel" data-collapsed="true" hidden>
+                        <div class="boutique-collapsible-panel__topbar">
+                            <div class="panel-header panel-header--compact boutique-collapsible-panel__header boutique-trait-filter-window__header"><strong>Trait Filters</strong></div>
+                            <button id="trait-filter-toggle" class="sales-history-chart__collapse-button boutique-collapse-button" type="button" aria-controls="trait-filter-content" aria-expanded="false">Expand</button>
+                        </div>
+                        <div id="trait-filter-content" class="trait-filter-content">
+                            <div id="trait-filter-controls" class="trait-filter-controls"></div>
+                            <p id="trait-filter-status" class="trait-filter-status"></p>
+                        </div>
+                    </section>
+                    <div class="gallery-search-row boutique-gallery-search-row">
+                        <div class="gallery-search-slot">
+                            <input id="market-search" class="gallery-search" type="search" placeholder="Collection ID">
+                        </div>
+                    </div>
+                </section>
+            </aside>
+            <section class="market-stage">
+                <section class="summary-grid">
+                    <article class="summary-card summary-card--hero"><div id="active-collection-meta"></div></article>
+                </section>
+                <section id="collection-sales-chart-shell" class="collection-sales-chart-shell" hidden></section>
+                <section class="market-grid-shell">
+                    <div id="asset-grid" class="asset-grid"></div>
+                    <button id="load-more-assets" class="load-more-button" type="button">Load more</button>
+                </section>
+            </section>
+            <aside id="sales-rail" class="layout-stack layout-stack--right" hidden>
+                <section id="record-sales-panel" class="summary-card sales-rail__panel boutique-collapsible-panel" hidden><div id="record-sales"></div></section>
+                <section id="sales-activity-panel" class="summary-card sales-rail__panel boutique-collapsible-panel" hidden><div id="sales-activity"></div></section>
+            </aside>
+        </main>
+        <aside id="inspect-drawer" class="inspect-drawer" data-open="false" aria-label="Inscription details">
+            <div class="inspect-drawer__header">
+                <strong class="inspect-drawer__title"><img src="/Images/Ord.svg" alt="" aria-hidden="true"><span>Inspect</span></strong>
+                <button id="inspect-close" class="icon-button" type="button">Close</button>
+            </div>
+            <div id="inspect-content" class="inspect-drawer__content"></div>
+        </aside>
+        <aside id="profile-panel" class="side-panel" data-open="false" aria-label="Holder profile">
+            <div class="side-panel__header">
+                <strong>Profile</strong>
+                <button id="profile-close" class="icon-button" type="button">Close</button>
+            </div>
+            <div id="profile-content" class="side-panel__content"></div>
+        </aside>
+        <div id="market-message" class="market-message" data-tone="muted" data-visible="false" aria-live="polite">
+            <div class="market-message__body">
+                <span id="market-message-text" class="market-message__text"></span>
+                <a id="market-message-link" class="market-message__link" href="" target="_blank" rel="noreferrer" hidden></a>
+            </div>
+            <button id="market-message-close" class="market-message__close" type="button" aria-label="Dismiss status"></button>
+        </div>
+    </div>
+    <script type="module" src="./marketplace.js"></script>
+</body>
+</html>

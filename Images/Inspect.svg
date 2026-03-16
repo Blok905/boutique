@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#f7931a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#g)"/>
+  <rect x="64" y="64" width="1072" height="1072" rx="36" fill="rgba(8,8,8,0.78)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <g fill="none" stroke="rgba(255,255,255,0.12)">
+    <path d="M64 200 H1136"/>
+    <path d="M64 600 H1136"/>
+    <path d="M400 64 V1136"/>
+    <path d="M800 64 V1136"/>
+  </g>
+  <text x="96" y="520" fill="#fff3d6" font-family="Orbitron, Arial, sans-serif" font-size="96" font-weight="700">Inspect</text>
+  <text x="96" y="630" fill="rgba(255,243,214,0.78)" font-family="Orbitron, Arial, sans-serif" font-size="44" letter-spacing="6">Asset</text>
+  <circle cx="1030" cy="170" r="66" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.24)" stroke-width="2"/>
+  <circle cx="1030" cy="170" r="28" fill="#f7931a"/>
+</svg>
