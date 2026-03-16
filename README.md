@@ -1,6 +1,6 @@
-﻿## Blok Boutique
+## Boutique
 
-Blok Boutique is a self-hosted, non-custodial Ordinals marketplace for tracked collections. It is a Bitcoin transaction coordinator, not an exchange, escrow layer, or custody service. The marketplace implements a 0% protocol fee model, making settlement buyer-to-seller plus miner fee only.
+Boutique is a self-hosted, non-custodial Ordinals marketplace for tracked collections. It is a Bitcoin transaction coordinator, not an exchange, escrow layer, or custody service. The marketplace implements a 0% protocol fee model, making settlement buyer-to-seller plus miner fee only.
 
 > Note: The bundled Metadata/ manifests and media assets in this export are synthetic placeholders included only so the public repository can be deployed without publishing private collection files.
 
@@ -37,7 +37,7 @@ Wallet signing is delegated to browser wallets such as UniSat and Xverse using E
 
 ## Security
 
-- Blok Boutique is non-custodial, not trustless. The operator still controls the web origin, API, manifests, and runtime.
+- Boutique is non-custodial, not trustless. The operator still controls the web origin, API, manifests, and runtime.
 - `ord` and `bitcoind` are the trust anchors for listing validity and settlement checks. If either service is stale, dishonest, or misconfigured, marketplace decisions will be wrong.
 - collection membership, listings, offers, and sales ledgers are off-chain application state
 - external services are optional enrichment or fallback only and are not the settlement trust path
