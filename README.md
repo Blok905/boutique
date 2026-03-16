@@ -1,6 +1,6 @@
 ## Boutique
 
-Boutique is a self-hosted, non-custodial Ordinals marketplace for tracked collections. It is a Bitcoin transaction coordinator, not an exchange, escrow layer, or custody service. The marketplace implements a 0% protocol fee model, making settlement buyer-to-seller plus miner fee only.
+Boutique is a self-hosted, non-custodial Ordinals marketplace for tracked collections. It is a Bitcoin inscription transaction coordinator, not an exchange, escrow layer, or custody service. The marketplace implements a 0% protocol fee model, making settlement buyer-to-seller plus miner fee only.
 
 > Note: The bundled Metadata/ manifests and media assets in this export are synthetic placeholders included only so the public repository can be deployed without publishing private collection files.
 
